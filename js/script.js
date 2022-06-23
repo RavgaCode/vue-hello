@@ -1,6 +1,10 @@
 var app = new Vue({
   el: "#root",
   data: {
-    greetings: "Hello Booleaners!",
+    boolean: {
+      greetings: "Hello Booleaners!",
+      image: `https://unsplash.it/300/300?image=15
+        `,
+    },
   },
 });
